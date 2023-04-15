@@ -23,7 +23,20 @@ import spiderman2 from "./spiderman2.png";
 import spiderman3 from "./spiderman3.png";
 import spiderman4 from "./spiderman4.png";
 
+import facebook from "./facebook.png";
+import twitter from "./twitter.png";
+import twitch from "./twitch.png";
+import youtube from "./youtube.png";
+import insta from "./insta.png";
+import logo from "./logo.png";
+
 export {
+  logo,
+  facebook,
+  twitch,
+  twitter,
+  youtube,
+  insta,
   AvengerSpider,
   book01,
   book02,

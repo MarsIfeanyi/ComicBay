@@ -21,6 +21,7 @@ import {
   spiderman3,
   spiderman4,
 } from "../../assets";
+import Footer from "./Footer";
 import RecommendedBookCard from "./RecommendedBookCard";
 import RelatedBooksCard from "./RelatedBooksCard";
 import ReleasedComicsCard from "./ReleasedComicsCard";
@@ -207,6 +208,8 @@ const Gallery = () => {
           />
         ))}
       </div>
+
+      <Footer />
     </>
   );
 };
