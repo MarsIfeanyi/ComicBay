@@ -3,13 +3,13 @@ import React from "react";
 const RecommendedBookCard = ({ image, title, description, price }) => {
   return (
     <>
-      <div className="flex flex-col">
-        <img src={image} alt="images" className="w-[250px]" />
+      <div className="flex flex-col mt-32 border-2  rounded-xl ">
+        <img src={image} alt="images" className="w-[200px] h-[300px]" />
 
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h2 className="mt-5 text-lg font-medium">{title}</h2>
+        <p className="mt-1">{description}</p>
 
-        <h4>{price}</h4>
+        <h4 className="text-red-600 mt-2 ">{price}</h4>
       </div>
     </>
   );
